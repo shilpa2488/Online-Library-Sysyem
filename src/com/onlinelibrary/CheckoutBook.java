@@ -20,6 +20,8 @@ public class CheckoutBook {
 		Connection con=GetCon.getCon();
 		PreparedStatement ps;
 		try {
+
+			//Adding comment in release branch
 			//Adding comment
 			ps = con.prepareStatement("Insert into CHECKOUTDETAILS values(?,?,?,?,?,?)");
 		 	ps.setString(1,id);
