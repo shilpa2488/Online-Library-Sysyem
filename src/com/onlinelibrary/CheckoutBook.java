@@ -44,7 +44,7 @@ public class CheckoutBook {
 	}
 	public static Date addDays(Date d, int days)
     {
-		//Added comment for new feature branch
+		//Added comment for release1
 		d.setTime(d.getTime() +  30L * 24 * 60 * 60 * 1000);
         System.out.println("30 days after today is: " + d);
         return d;
